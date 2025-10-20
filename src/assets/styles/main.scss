@@ -1,0 +1,11 @@
+@use "variables";      // Importa tus variables
+@use "dependencies" as *;
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Ejemplo si quieres usar una variable */
+h1 {
+  color: variables.$primary-color;
+}
